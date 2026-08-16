@@ -18,6 +18,7 @@ class ComputerBuilder {
     private var os: String = ""
     private var motherboard: String? = null
 
+
     // Métodos para definir as propriedades do objeto Computer
     fun cpu(cpu: String) = apply { this.cpu = cpu }
     fun ram(ram: String) = apply { this.ram = ram }
